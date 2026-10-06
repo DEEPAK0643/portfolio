@@ -2,96 +2,113 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { Award } from 'lucide-react';
 
+const certificatePath = (file) => `${import.meta.env.BASE_URL}certificates/${file}`;
+
 const certificates = [
   {
     name: 'VibeAthlon 6.0 - VibeCoding Hackathon',
     issuer: 'NXTGENSEC',
     date: 'Jul 25-27, 2026',
-    image: '/certificates/vibeathon-6-vibecoding.jpg',
+    image: 
+    certificatePath('vibeathon-6-vibecoding.jpg'),
   },
   {
     name: 'Combined Annual Training Camp III',
     issuer: '5 (TN) Air Squadron (Tech) NCC, Salem',
     date: 'Jul 22-31, 2026',
-    image: '/certificates/ncc-training-camp-iii.jpg',
+    image:
+    certificatePath('ncc-training-camp-iii.jpg'),
   },
   {
     name: 'Morrow 1.0 - Finalist',
     issuer: 'Makers Need More, Unstop, and .xyz',
     date: '2026',
-    image: '/certificates/morrow-1-finalist.jpg',
+    image:
+    certificatePath('morrow-1-finalist.jpg'),
   },
   {
     name: 'Morrow 1.0 - Participation',
     issuer: 'Makers Need More, Unstop, and .xyz',
     date: '2026',
-    image: '/certificates/morrow-1-participation.jpg',
+    image:
+    certificatePath('morrow-1-participation.jpg'),
   },
   {
     name: 'IDEATHON 2026 - Participation',
     issuer: 'Tamizhan Skills',
     date: 'Jan 24, 2026',
-    image: '/certificates/ideathon-2026-tamizhan-skills.jpg',
+    image:
+    certificatePath('ideathon-2026-tamizhan-skills.jpg'),
   },
   {
     name: 'Basic Cyber Course (English)',
     issuer: 'NIELIT',
     date: 'May 1, 2026',
-    image: '/certificates/nielit-basic-cyber-course.jpg',
+    image:
+    certificatePath('nielit-basic-cyber-course.jpg'),
   },
   {
     name: "EL-MISSION'26 - Paper Presentation",
     issuer: 'PSNA College of Engineering and Technology',
     date: 'Apr 27, 2026',
-    image: '/certificates/el-mission-26-paper-presentation.jpg',
+    image:
+    certificatePath('el-mission-26-paper-presentation.jpg'),
   },
   {
     name: 'Annual Training Camp II',
     issuer: '14 (TN) Battalion NCC, Dindigul',
     date: 'Aug 4-13, 2026',
-    image: '/certificates/ncc-annual-training-camp-ii.jpg',
+    image:
+    certificatePath('ncc-annual-training-camp-ii.jpg'),
   },
   {
     name: 'Generative AI Revolution: Understanding Large Language Models',
     issuer: 'Reccsar Pvt. Ltd.',
     date: 'Sep 27, 2026',
-    image: '/certificates/reccsar-generative-ai-workshop.jpg',
+    image: 
+    certificatePath('reccsar-generative-ai-workshop.jpg'),
   },
   {
     name: 'Critical Thinking in the AI Era',
     issuer: 'HP LIFE',
     date: 'Jul 19, 2026',
-    image: '/certificates/hp-life-critical-thinking-ai-era.jpg',
+    image:
+    certificatePath('hp-life-critical-thinking-ai-era.jpg'),
   },
   {
     name: 'Effective Presentations',
     issuer: 'HP LIFE',
     date: 'Jul 19, 2026',
-    image: '/certificates/hp-life-effective-presentations.jpg',
+    image:
+    certificatePath('hp-life-effective-presentations.jpg'),
   },
   {
     name: 'AI for Beginners',
     issuer: 'HP LIFE',
     date: 'Jun 29, 2026',
-    image: '/certificates/hp-life-ai-for-beginners.jpg',
+    image:
+    certificatePath('hp-life-ai-for-beginners.jpg'),
   },
   {
     name: 'Critical Thinking in the AI Era',
     issuer: 'HP LIFE',
     date: 'Jul 19, 2026',
-    image: '/certificates/hp-life-critical-thinking-ai-era.jpg',
+    image:
+    certificatePath('hp-life-critical-thinking-ai-era.jpg'),
   },
   {
     name: 'Effective Presentations',
     issuer: 'HP LIFE',
     date: 'Jul 19, 2026',
-    image: '/certificates/hp-life-effective-presentations.jpg',
+    image:
+    certificatePath('hp-life-effective-presentations.jpg'),
   },
   {
     name: 'AI for Beginners',
     issuer: 'HP LIFE',
     date: 'Jun 29, 2026',
-    image: '/certificates/hp-life-ai-for-beginners.jpg',
+    image:
+    certificatePath('hp-life-ai-for-beginners.jpg'),
   },
 ];
 
