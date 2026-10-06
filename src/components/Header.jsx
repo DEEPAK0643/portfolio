@@ -3,7 +3,7 @@ import { Contact, Download } from 'lucide-react';
 
 import ContactDetails from './ContactDetails';
 
-const RESUME_URL = '/RESUME.pdf';
+const RESUME_URL = `${import.meta.env.BASE_URL}RESUME.pdf`;
 
 const Header = () => {
   const [contactOpen, setContactOpen] = useState(false);
