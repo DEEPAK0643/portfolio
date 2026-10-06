@@ -14,7 +14,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
   return (
     <div className="fixed left-0 top-0 h-full w-20 flex flex-col items-center py-8 border-r border-white/5 z-50 bg-darkBg/80 backdrop-blur-md">
       <div className="mb-12">
-        <img src="/hawk-logo-white.png" alt="Hawk logo" className="w-9 h-9 object-contain" />
+        <img src={`${import.meta.env.BASE_URL}hawk-logo-white.png`} alt="Hawk logo" className="w-9 h-9 object-contain" />
       </div>
       
       <nav aria-label="Portfolio shortcuts" className="flex flex-col gap-10">
